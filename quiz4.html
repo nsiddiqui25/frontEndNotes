@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Quiz 4</title>
+   <link rel="stylesheet" href="src/srouce/quiz4.css">
+
+   <link rel="stylesheet" href="src/srouce/quiz4-1.css">
+</head>
+<body>
+   <h1>Register</h1>
+   <h1>Hey You</h1>
+   <h1>Good lookin!</h1>
+   <form action="#">
+      <div>
+         <label for="firstName">First Name: </label>
+         <input type="text" id="firstName" name="firstName" placeholder="John">
+         <label for="lastName">Last Name: </label>
+         <input type="text" id="lastName" name="lastName" placeholder="Smith">
+      </div>
+      <br>
+      <div>
+         <label for="male">Male</label>
+         <input type="radio" id="male" name="gender" value="male" required>
+         <label for="female">Female</label>
+         <input type="radio" id="female" name="gender" value="female" required>
+         <label for="other">Other</label>
+         <input type="radio" id="other" name="gender" value="other" required>
+      </div>
+      <br>
+      <div>
+         <!-- 1st Method -->
+         <label for="email">Email: </label>
+         <input type="email" id="email" name="email" placeholder="your email">
+         <!-- 2nd method -->
+         <label for="">
+            Password:
+            <input type="password" name="password" pattern=".{5,10}" title="Password must be between 5 to 10 characters!" required>
+         </label>
+      </div>
+      <br>
+      <div>
+         <label for="">
+            Birthday: 
+            <select name="month">
+               <option value="" disabled selected>Month</option>
+               <option value="">Jan</option>
+               <option value="">Feb</option>
+               <option value="">Mar</option>
+            </select>
+            <select name="day">
+               <option value="" disabled selected>Day</option>
+               <option value="">1</option>
+               <option value="">2</option>
+               <option value="">3</option>
+            </select>
+            <select name="year">
+               <option value="" disabled selected>Year</option>
+               <option value="">2016</option>
+               <option value="">2017</option>
+               <option value="">2018</option>
+            </select>
+         </label>
+      </div>
+      <br>
+      <div>
+         <label for="agreed">I agree to the terms and conditions: </label>
+         <input type="checkbox" id="agreed" required>
+         <button>Submit</button>
+      </div>
+   </form>
+</body>
+</html>
