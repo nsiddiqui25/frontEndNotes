@@ -1,0 +1,17 @@
+body {
+   color: orange;
+}
+
+/* Elements */
+li {
+   border: 2px dashed cyan;
+}
+
+#important {
+   background: yellow;
+}
+
+/* classes */
+.completed {
+   text-decoration: line-through wavy;
+}
