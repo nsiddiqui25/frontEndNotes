@@ -1,0 +1,23 @@
+p {
+   font-family: Orbitron;
+   font-weight: 800;
+   font-size: 40px;
+   text-transform: uppercase;
+
+   margin: 1.666667%;
+   width: 30%;
+   padding-bottom: 25px;
+}
+
+img {
+   width: 30%;
+   /* 30% relative to the parent element <body> */
+
+   /* 100% - (3 images * 30%) = 10% 
+      3x3 grid, we have 6 margins, 2 sides per image
+      10%/6 = 1.66666666666666666667%
+   */
+   float: left;
+   margin: 1.666667%;
+ 
+}
