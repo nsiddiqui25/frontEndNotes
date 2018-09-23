@@ -1,0 +1,71 @@
+
+
+p {
+   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+   /* font-family: Georgia, 'Times New Roman', Times, serif */
+   font-family: 'Unlock', cursive;
+}
+
+
+
+
+body {
+   font-size: 10px;
+}
+
+h1 {
+   /* font-size: 100px; */
+   font-size: 5em;
+   /* em is another way of setting font size. equal to the siaze of the parent 
+   
+   10px * 5 = 50px*/
+
+}
+
+
+/* FONT-SIZE */
+p {
+   /* font-size: 25px; */
+   font-size: 2em;
+}
+
+span {
+   font-size: 2rem;
+}
+
+
+/* Font-weight */
+p {
+   /* font-weight: bold; */
+   /* font-weight: light; */
+   font-weight: 500;
+}
+
+/* line-height */
+p {
+   line-height: 1.5;
+}
+
+/* text-align */
+h1 {
+   text-align: center;
+}
+
+/* text-decoration */
+
+.first {
+   text-decoration: underline;
+}
+
+.second {
+   text-decoration: line-through;
+}
+
+span {
+   text-decoration: overline;
+   text-decoration-color: blue;
+}

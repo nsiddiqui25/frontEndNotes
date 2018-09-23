@@ -1,0 +1,54 @@
+
+/* Content - Width and Height */
+p {
+   /* width: 200px;
+   height: 300px; */
+   width: 50%;
+}
+
+/* Border
+ - shorthand syntax in CSS that accepts multiple values for drawing a line around the element it's applied to 
+ - accepts one or more of the following values, in combination:
+   border: border-width border-style color; */
+
+.first {
+   /* border-width: 2px;
+   border-style: solid;
+   border-color: blue; */
+
+   border: 2px solid blue;
+}
+
+.second {
+   border: 8px solid green;
+   
+}
+
+/* padding - space between content and border */
+.second {
+   /* padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px; */
+
+   /* padding: 10px 20px 10px 20px; */
+
+   /* padding: 10px 20px; */
+   padding: 20px;
+
+   /* 
+   padding: [top] [left-and-right] [bottom]
+   */
+
+   text-align: center;
+}
+
+/* Margin - defines the outermost portion of the box model, creating space around an element, outside of any defined borders
+- margins can be set using lengths, percentages, keyword "auto", and can also have negative values 
+- auto use on left and right to center*/
+.first {
+   /* margin: 100px; */
+   margin: 30px auto;
+   text-align: center;
+}
+
