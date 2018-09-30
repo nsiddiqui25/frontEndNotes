@@ -1,0 +1,25 @@
+/* CSS Grid
+   - allows to create two-demensional layouts on a webpage and align items in both columns and rows
+   
+   
+CSS Grid vs Flexbox
+- flexbox is 1 dimensional
+- grid is for 2D layouts for columns AND rows
+   - */
+
+.wrapper > div {
+   background: #eee;
+   padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+   background: #bbb;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: 30% 40% 30%;
+   /* grid-column-gap: 1em;
+   grid-row-gap: 1em; */
+   grid-gap: 1em;
+}
