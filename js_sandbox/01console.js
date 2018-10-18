@@ -1,4 +1,4 @@
-// this is a single line code
+// this is a single line comment
 
 /*
 this is
